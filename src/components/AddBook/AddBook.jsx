@@ -22,28 +22,16 @@ function AddBook() {
                 <label> Title: </label>
                 <input type="text" />
 
-                <label> Director: </label>
+                <label> Author: </label>
                 <input type="text" />
                 
-                <label> Genre: </label>
-                <select id="genre" name="genre">
-                    <option value="volvo"> Action </option>
-                    <option value="saab"> Fantasy </option>
-                    <option value="fiat"> Drama </option>
-                    <option value="audi"> Fiction </option>
-                </select>
-                
-                <label> Date of Release: </label>
-                <input type="number" />
-                
-                <label> Title: </label>
+                <label> Description: </label>
                 <textarea />
                 
-                <label> Poster Image: </label>
+                <label> Cover Image: </label>
                 <input type="url" />
                 
                 <button> Submit </button>
-                <button onClick={() => navigate("/")}> Cancel </button>
             </div>
         </>
     )
