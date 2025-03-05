@@ -1,0 +1,14 @@
+.addBookContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.addBookContainer input, select, textarea {
+    width: 20%;
+    padding: 10px;
+}
+
+.addBookContainer button {
+    margin-top: 20px;
+    width: 10%;
+}
